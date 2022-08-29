@@ -6,10 +6,10 @@
         "enabled": false,
         "output": "cypress/cucumber-report/cucumber-report.html"
     },
-    "json":{
-        "enabled":true,
-        "formatter":"cucumber-json-formatter"
-    },
+    // "json":{
+    //     "enabled":true,
+    //     "formatter":"cucumber-json-formatter"
+    // },
     "stepDefinitions": [
         "cypress/e2e/[filepath]/**/*.{js,ts}",
         "cypress/e2e/[filepath].{js,ts}",
