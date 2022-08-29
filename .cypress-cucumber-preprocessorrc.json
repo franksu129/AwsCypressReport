@@ -3,8 +3,11 @@
         "enabled": false
     },
     "html": {
-        "enabled": true,
+        "enabled": false,
         "output": "cypress/cucumber-report/cucumber-report.html"
+    },
+    "json":{
+        "enabled":true
     },
     "stepDefinitions": [
         "cypress/e2e/[filepath]/**/*.{js,ts}",
