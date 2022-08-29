@@ -3,7 +3,7 @@
         "enabled": false
     },
     "html": {
-        "enabled": false,
+        "enabled": true,
         "output": "cypress/cucumber-report/cucumber-report.html"
     },
     "stepDefinitions": [
