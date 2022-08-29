@@ -128,3 +128,4 @@ dist
 /cypress/screenshots
 /cypress/cucumber-report
 /cucumber-messages.ndjson
+/cucumber-report.json
