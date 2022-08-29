@@ -5,6 +5,7 @@ const webpack = require('@cypress/webpack-preprocessor')
 module.exports = defineConfig({
   video: false,
   e2e: {
+    screenshotOnRunFailure: false,
     specPattern: ["cypress/e2e/**/*.cy.{js,jsx,ts,tsx}","**/*.feature"],
     async setupNodeEvents(on, config) {
 
