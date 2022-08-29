@@ -1,3 +1,3 @@
 # AwsCypressReport
 
-主要用來AWS CD/CD 運行報表使用
+主要用來測試AWS CD/CD 報表
