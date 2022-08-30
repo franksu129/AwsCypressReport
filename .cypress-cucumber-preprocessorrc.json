@@ -3,11 +3,11 @@
         "enabled": false
     },
     "html": {
-        "enabled": false,
+        "enabled": true,
         "output": "cypress/cucumber-report/cucumber-report.html"
     },
     "json":{
-        "enabled": true,
+        "enabled": false,
         "output": "cypress/cucumber-report/cucumber-report.json"
     },
     "stepDefinitions": [
